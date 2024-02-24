@@ -22,13 +22,11 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        You have the money, <br className="sm:block hidden" /> we have the investment.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+        With the right investment opportunity you can improve the financial life 
+        by earning through different investment platform, assets, and digital currency
       </p>
 
       <Button styles={`mt-10`} />

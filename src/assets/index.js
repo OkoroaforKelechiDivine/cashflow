@@ -19,10 +19,12 @@ import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
+import youtube from "./youtube.png"
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
+import whatsapp from "./whatsapp.png";
+import person2 from "./person02.jpeg.png";
+import person3 from "./person03.jpeg.png";
+import person01 from "./person01.jpeg.png"
 
 export {
   airbnb,
@@ -46,8 +48,10 @@ export {
   facebook,
   instagram,
   linkedin,
+  whatsapp,
   twitter,
-  people01,
-  people02,
-  people03,
+  youtube,
+  person01,
+  person2,
+  person3,
 };

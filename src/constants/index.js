@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { person01, person2, person3, youtube, whatsapp, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Networking",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "We have a community of experts that discusses the deeper aspects of investment, real estate and the crypto market. You can collaborate with fellow participants, share insights, and provide feedback."
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We have partnership with the best investment companies, we also take proactive steps to make sure your informations and transactions are secured",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Mentorship and Guidance",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "With our collaborative community you can expand your knowledge by learning from experts in stock market, foreign exchange, real estate and crypto currency",
   },
 ];
 
@@ -48,43 +48,43 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+    name: "Blessing Ezeugo",
     title: "Founder & Leader",
-    img: people01,
+    img: person01,
   },
   {
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+    name: "Best Ohwofasa",
     title: "Founder & Leader",
-    img: people02,
+    img: person2,
   },
   {
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+    name: "Edeh Peace",
     title: "Founder & Leader",
-    img: people03,
+    img: person3,
   },
 ];
 
 export const stats = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    id: "",
+    title: "",
+    value: "",
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: "",
+    title: "",
+    value: "",
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    id: "",
+    title: "",
+    value: "",
   },
 ];
 
@@ -158,22 +158,32 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/cashflowcom?igsh=YzljYTk1ODg3Zg==",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/profile.php?id=61550590784191",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://x.com/Cashflowcompan?t=zqiuESWroHVoFclT7-DcXA&s=09",
   },
   {
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
+  },
+  {
+    id: "social-media-5",
+    icon: whatsapp,
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-6",
+    icon: youtube,
+    link: "https://youtube.com/@Cashflowcompany?si=1rt3gaJMblv16Lr8",
   },
 ];
 
