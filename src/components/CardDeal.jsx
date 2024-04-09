@@ -6,7 +6,7 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        "Invest for the long haul <br className="sm:block hidden" /> Don't get too greddy and don't get too scared
+        "Invest for the long haul <br className="sm:block hidden" /> Don't get too greedy and don't get too scared
         steps."
       </h2>
       {/* <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

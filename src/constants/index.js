@@ -1,4 +1,4 @@
-import { person01, person2, person3, youtube, whatsapp, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { person01, person2, person3, person04, person05, youtube, whatsapp, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -24,15 +24,13 @@ export const features = [
     id: "feature-1",
     icon: star,
     title: "Networking",
-    content:
-      "We have a community of experts that discusses the deeper aspects of investment, real estate and the crypto market. You can collaborate with fellow participants, share insights, and provide feedback."
+    content: "We have a community of experts that discusses the deeper aspects of investment, real estate and the crypto market. You can collaborate with fellow participants, share insights, and provide feedback."
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
-    content:
-      "We have partnership with the best investment companies, we also take proactive steps to make sure your informations and transactions are secured",
+    content: "We have partnership with the best investment companies, we also take proactive steps to make sure your informations and transactions are secured",
   },
   {
     id: "feature-3",
@@ -68,6 +66,22 @@ export const feedback = [
     title: "Founder & Leader",
     img: person3,
   },
+  {
+    id: "feedback-4",
+    content:
+      "Financial freedom as nothing to do with trading, it has everything to do with the person who's trading.",
+    name: "Kenvry Mo",
+    title: "Founder of Petwanation",
+    img: person04,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "The only limit to our realization of tomorrow will be our doubts of today.",
+    name: "Tope Mark Odigie",
+    title: "Founder of Reb360.co",
+    img: person05,
+  },
 ];
 
 export const stats = [
@@ -94,23 +108,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
+        link: "/content",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "/how-it-works",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
+        link: "/create",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        link: "/explore",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "/terms-and-services",
       },
     ],
   },
@@ -119,23 +133,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "/help-center",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "/partners",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        link: "/suggestions",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "/blog",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "/newsletters",
       },
     ],
   },
@@ -146,10 +160,14 @@ export const footerLinks = [
         name: "PU PRIME",
         link: "https://www.puprime.com/",
       },
-      // {
-      //   name: "Become a Partner",
-      //   link: "https://www.hoobank.com/become-a-partner/",
-      // },
+      {
+        name: "Reb360.co",
+        link: "https://reb360.co/",
+      },
+      {
+        name: "Pewatnation",
+        link: "https://www.instagram.com/pewat.nation?igsh=YzljYTk1ODg3Zg==",
+      },
     ],
   },
 ];
